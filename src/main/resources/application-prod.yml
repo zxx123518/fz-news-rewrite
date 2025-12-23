@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://xxx.xxx.xxx.xxx:5432/fz_branch_news # 后续替换为高斯数据库实际地址
+    username: gaussdb # 后续替换为高斯数据库用户名
+    password: xxxxxx # 后续替换为高斯数据库密码
+    driver-class-name: org.postgresql.Driver # 高斯兼容PostgreSQL驱动
+mybatis-plus:
+  mapper-locations: classpath:mapper/**/*.xml
+  type-aliases-package: com.fzbank.newsrewrite.entity
+server:
+  port: 8080
