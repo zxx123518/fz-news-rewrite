@@ -38,3 +38,10 @@ npm-debug.log
 dist/ 
 *.iml 
 .env 
+.idea/ 
+target/ 
+node_modules/ 
+npm-debug.log 
+dist/ 
+*.iml 
+.env 
